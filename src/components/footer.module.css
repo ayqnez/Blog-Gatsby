@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    color: #001858;
+}
+
+.content {
+    align-items: center;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navLink {
+    color: #001858;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #005fa3;
+}

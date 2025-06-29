@@ -1,0 +1,25 @@
+.container {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textContent {
+    width: 600px;
+}
+
+.title {
+    width: 430px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2B2C34;
+}
+
+.subtitle {
+    border-left: 3px solid #2B2C34;
+    padding-left: 5px;
+    font-size: 20px;
+    color: darkgrey;
+}
