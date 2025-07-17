@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 import { graphql, Link } from "gatsby"
 
 import * as styles from "./single-post.module.css"
+import Button from "../components/Button/button"
 
 const SinglePost = ({ data }) => {
   const { html, frontmatter } = data.markdownRemark
@@ -28,9 +29,7 @@ const SinglePost = ({ data }) => {
 
       </div>
 
-      <div className={styles.buttonWrapper}>
-        <Link to="/" className={styles.homeButton}>← Back to Home</Link>
-      </div>
+      <Button text={"← Back to Home"}/>
 
     </Layout>
   )

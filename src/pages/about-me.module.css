@@ -29,22 +29,3 @@ p {
     margin-bottom: 16px;
 }
 
-/* .buttonWrapper {
-    display: flex;
-    justify-content: flex-end;
-    margin: 30px auto;
-}
-
-.homeButton {
-    padding: 12px 24px;
-    background-color: #001858;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.homeButton:hover {
-    background-color: #005fa3;
-} */

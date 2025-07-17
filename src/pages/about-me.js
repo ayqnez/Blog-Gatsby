@@ -48,9 +48,6 @@ const AboutMePage = () => {
 
             </div>
 
-            {/* <div className={styles.buttonWrapper}>
-                <Link to="/" className={styles.homeButton}>← Back to Home</Link>
-            </div> */}
             <Button text={"← Back to Home"} />
 
         </Layout>
