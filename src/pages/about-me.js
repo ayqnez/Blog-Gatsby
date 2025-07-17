@@ -1,12 +1,13 @@
 import * as React from "react"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout/layout"
 import Seo from "../components/seo"
 
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
 import * as styles from "./about-me.module.css"
+import Button from "../components/Button/button"
 
 const AboutMePage = () => {
     return (
@@ -47,9 +48,10 @@ const AboutMePage = () => {
 
             </div>
 
-            <div className={styles.buttonWrapper}>
+            {/* <div className={styles.buttonWrapper}>
                 <Link to="/" className={styles.homeButton}>← Back to Home</Link>
-            </div>
+            </div> */}
+            <Button text={"← Back to Home"} />
 
         </Layout>
     )

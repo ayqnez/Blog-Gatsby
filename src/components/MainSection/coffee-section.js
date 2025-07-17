@@ -1,7 +1,7 @@
 import * as React from "react"
 import * as styles from "./coffee-section.module.css"
 
-import codeImg from '../images/coding.png'
+import codeImg from '../../images/coding.png'
 
 const CoffeeSection = () => {
     return (

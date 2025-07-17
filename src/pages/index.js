@@ -2,9 +2,9 @@ import * as React from "react"
 
 import { useState } from "react"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout/layout"
 import Seo from "../components/seo"
-import CoffeeSection from '../components/coffee-section'
+import CoffeeSection from '../components/MainSection/coffee-section'
 
 import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
