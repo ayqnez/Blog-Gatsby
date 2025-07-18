@@ -7,3 +7,10 @@ import './src/styles/global.css'
  */
 
 // You can delete this file if you're not using it
+
+export const onRouteUpdate = ({ location, prevLocation }) => {
+    console.log("Новая локация:", location)
+    console.log("Предыдущая локация:", prevLocation)
+
+    // Твоя логика здесь: аналитика, скролл, защита и т.д.
+}

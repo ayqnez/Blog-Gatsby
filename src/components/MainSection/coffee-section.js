@@ -19,6 +19,7 @@ const CoffeeSection = () => {
             </div>
 
             <img
+                className={styles.img}
                 src={codeImg}
                 alt="Coffee preparation"
             />

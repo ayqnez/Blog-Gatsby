@@ -12,14 +12,16 @@
 }
 
 .textContent {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
-/* @media (max-width: 500px) {
+
+@media (max-width: 500px) {
     .textContent {
-        flex-direction: column;
+        max-width: 300px;
     }
-} */
+}
 
 .title {
     width: 430px;
@@ -29,9 +31,28 @@
     color: #2B2C34;
 }
 
+@media (max-width: 500px) {
+    .title {
+        font-size: 32px;
+    }
+}
+
+
 .subtitle {
     border-left: 3px solid #2B2C34;
     padding-left: 5px;
     font-size: 20px;
     color: darkgrey;
+}
+
+.img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+@media (max-width: 500px) {
+    .img {
+        max-width: 200px;
+    }
 }
