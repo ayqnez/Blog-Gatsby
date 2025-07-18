@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
     <Link to="/" className={styles.logoLink}>
       {siteTitle}
     </Link>
-
+  
     <nav className={styles.navLinks}>
       <Link to="/" className={styles.navLink}>Home</Link>
       <Link to="/about-me" className={styles.navLink}>About Me</Link>
