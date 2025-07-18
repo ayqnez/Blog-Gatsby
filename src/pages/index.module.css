@@ -2,6 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 700px) {
+  .blogSection {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .pageTitle {
@@ -10,18 +20,38 @@
   color: #2B2C34;
 }
 
+@media (max-width: 500px) {
+  .pageTitle {
+    font-size: 22px;
+  }
+}
+
 .sortControl {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin: 16px 0 32px;
   gap: 8px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .sortControl {
+    justify-content: flex-start;
+    width: 100%;
+  }
 }
 
 .sortControl label {
   font-size: 30px;
   font-weight: 700;
   color: #2B2C34;
+}
+
+@media (max-width: 500px) {
+  .sortControl label {
+    font-size: 18px;
+  }
 }
 
 .sortControl select {
@@ -34,7 +64,7 @@
 
 .blogsContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   padding: 20px 0;
   gap: 30px;
 }
@@ -69,7 +99,7 @@
 }
 
 .blogTitle {
-  padding: 20px 0px;
+  padding: 20px 0;
   font-size: 20px;
   font-weight: 600;
   color: #1a1a1a;
