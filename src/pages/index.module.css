@@ -5,10 +5,9 @@
 }
 
 .pageTitle {
-  font-size: 40px;
-  margin-bottom: 20px;
-  color: #2B2C34;
+  font-size: 30px;
   font-weight: 700;
+  color: #2B2C34;
 }
 
 .sortControl {
@@ -20,7 +19,7 @@
 }
 
 .sortControl label {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   color: #2B2C34;
 }
@@ -36,8 +35,7 @@
 .blogsContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 32px 0;
-  margin: 0px;
+  padding: 20px 0;
   gap: 30px;
 }
 

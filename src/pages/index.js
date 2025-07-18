@@ -29,7 +29,7 @@ const IndexPage = ({ data }) => {
       <CoffeeSection />
 
       <div className={styles.blogSection}>
-        <h1 className={styles.pageTitle}>Blog Posts</h1>
+        <p className={styles.pageTitle}>Blog Posts</p>
 
         <div className={styles.sortControl}>
           <label htmlFor="sort">Sort by: </label>
