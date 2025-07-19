@@ -29,3 +29,14 @@
 .navLink:hover {
     color: #005fa3;
 }
+
+@media (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navLinks {
+    display: none;
+  }
+}
